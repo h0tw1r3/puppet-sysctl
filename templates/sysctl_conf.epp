@@ -1,0 +1,9 @@
+<%- | Variant[Array[String],Undef] $comment,
+      String $variable,
+      String $value
+| -%>
+<% unless $comment =~ Undef { -%>
+<% $comment.each |$message| { -%>
+# <%= message.strip %>
+<% } } -%>
+<%= $variable %> = <%= $value %>

@@ -1,0 +1,62 @@
+{
+  "name": "h0tw1r3-sysctl",
+  "version": "0.5.2",
+  "author": "Jeffrey Clark",
+  "summary": "Enforce Linux kernel configuration with sysctl",
+  "license": "Apache-2.0",
+  "source": "https://github.com/h0tw1r3/puppet-sysctl.git",
+  "project_page": "https://github.com/h0tw1r3/puppet-sysctl",
+  "issues_url": "https://github.com/h0tw1r3/puppet-sysctl/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 6.6.0 < 10.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "18.04",
+        "20.04",
+        "22.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 5.0.0 < 8.0.0"
+    }
+  ],
+  "tags": [
+    "sysctl",
+    "linux",
+    "kernel"
+  ],
+  "pdk-version": "2.5.0",
+  "template-url": "pdk-default#2.5.0",
+  "template-ref": "tags/2.5.0-0-g369d483"
+}

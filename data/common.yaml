@@ -1,0 +1,18 @@
+---
+lookup_options:
+  sysctl::variable:
+    merge: 
+      strategy: deep
+      knockout_prefix: "--"
+      merge_hash_arrays: false
+
+sysctl::purge: false
+sysctl::variable: {}
+sysctl::symlink99: false
+
+sysctl::binary: '/sbin/sysctl'
+sysctl::use_dir: true
+sysctl::conf_dir: '/etc/sysctl.d'
+sysctl::owner: root
+sysctl::group: root
+sysctl::mode: '0755'
