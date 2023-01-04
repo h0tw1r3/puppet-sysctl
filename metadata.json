@@ -1,6 +1,6 @@
 {
   "name": "h0tw1r3-sysctl",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "author": "Jeffrey Clark",
   "summary": "Enforce Linux kernel configuration with sysctl",
   "license": "Apache-2.0",
@@ -42,6 +42,12 @@
         "18.04",
         "20.04",
         "22.04"
+      ]
+    },
+    {
+      "operatingsystem": "Suse",
+      "operatingsystemrelease": [
+        "12"
       ]
     }
   ],
